@@ -783,3 +783,42 @@ html {
 html #contact {
   scroll-padding-top: 30px !important;
 }
+
+/* Mobile View for Feedback/Contact */
+@media (max-width: 768px) {
+  .contact-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .contact input,
+  .contact textarea {
+    font-size: 1rem;
+  }
+
+  .contact button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .contact label {
+    font-size: 0.95rem;
+  }
+
+  .contact input,
+  .contact textarea {
+    font-size: 0.95rem;
+  }
+
+  .contact button {
+    font-size: 1rem;
+  }
+}
