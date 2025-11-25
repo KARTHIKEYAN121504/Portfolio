@@ -165,7 +165,7 @@ section {
 .home .image img {
   width: 100%;
   max-width: 100%;
-  height: 280px;
+  height: 300px;
   border: 6px solid #ff7e5f;
   background: #1a1a35;
   box-shadow: 0 0 30px #ff7e5fbb;
@@ -183,7 +183,7 @@ section {
   }
   50% {
     transform: scale(1.05);
-    box-shadow: 0 0 55px #feb47bbb;
+    box-shadow: 0 0 55px #fda25dbb;
   }
 }
 
@@ -822,4 +822,5 @@ html #contact {
     font-size: 1rem;
   }
 }
+
 
